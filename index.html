@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+<div style="text-align: center;">
+    
+    <h1>Blog App</h1>
+
+    <form id="blog-form">
+      <input type="text" name="title" placeholder="Title">
+      <input type="text" name="content" placeholder="Content">
+      <input type="text" name="image_path" placeholder="Image path">
+      <button type="submit">Create Blog</button>
+    </form>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Content</th>
+          <th>Image Path</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="blog-list">
+      </tbody>
+    </table>
+</div>
+    
+</body>
+<script src="./app.js" ></script>
+
+</html>
